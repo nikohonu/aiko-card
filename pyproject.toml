@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aiko-card"
+version = "v1"
+description = "aiko-card is a program that helps to create anki cards from various sources"
+authors = ["Niko Honu <nikohonu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aiko_card"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+aiko-card = "aiko_card.__main__:main"
