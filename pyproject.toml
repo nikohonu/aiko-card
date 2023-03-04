@@ -9,6 +9,9 @@ packages = [{include = "aiko_card"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pillow = "^9.4.0"
+pytesseract = "^0.3.10"
+nltk = "^3.8.1"
 
 [build-system]
 requires = ["poetry-core"]
